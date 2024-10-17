@@ -1,0 +1,25 @@
+authors:
+- family: Cantini
+  given: Laura
+- family: Zakeri
+  given: Pooya
+- family: Hernandez
+  given: Celine
+- family: Naldi
+  given: Aurelien
+- family: Thieffry
+  given: Denis
+- family: Remy
+  given: Elisabeth
+- family: Baudot
+  given: "Ana\xEFs"
+issue: '1'
+journal: Nature Communications
+links:
+  doi: 10.1038/s41467-020-20430-7
+type: article
+tags: [ 'OpenAccess' ]
+title: Benchmarking joint multi-omics dimensionality reduction approaches for the study of cancer
+volume: '12'
+year: '2021'
+

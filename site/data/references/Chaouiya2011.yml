@@ -1,0 +1,18 @@
+authors:
+- family: Chaouiya
+  given: C.
+- family: Naldi
+  given: A.
+- family: Remy
+  given: E.
+- family: Thieffry
+  given: D.
+issue: '2'
+journal: Natural Computing
+links:
+  doi: 10.1007/s11047-010-9178-0
+pages: 727--750
+title: Petri net representation of multi-valued logical regulatory graphs
+type: article
+volume: '10'
+year: '2011'

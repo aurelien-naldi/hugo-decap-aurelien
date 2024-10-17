@@ -1,0 +1,22 @@
+authors:
+- family: "Faur\xE9"
+  given: Adrien
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Lopez
+  given: Fabrice
+- family: Chaouiya
+  given: Claudine
+- family: Ciliberto
+  given: Andrea
+- family: Thieffry
+  given: Denis
+issue: '12'
+journal: Molecular BioSystems
+links:
+  doi: 10.1039/B910101m
+pages: '1787'
+title: Modular logical modelling of the budding yeast cell cycle
+type: article
+volume: '5'
+year: '2009'

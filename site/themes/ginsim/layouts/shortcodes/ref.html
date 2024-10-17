@@ -1,0 +1,7 @@
+{{ $.Scratch.Set "_cur_ref_" .Site.Data.references }}
+{{ range .Params }}
+    {{ $.Scratch.Set "_cur_ref_" (index ($.Scratch.Get "_cur_ref_") .) }}
+    {{ $.Scratch.Set "_cur_ref_id_" . }}
+{{end}}
+{{ partial "printref.html" $ }}
+

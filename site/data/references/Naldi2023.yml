@@ -1,0 +1,17 @@
+authors:
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Richard
+  given: Adrien
+- family: Tonello
+  given: Elisa
+title: 'Linear cuts in Boolean networks'
+type: article
+domain: methods
+journal: Natural Computing
+volume: '22'
+pages: '431-51'
+tags: [ 'OpenAccess' ]
+year: '2023'
+links:
+  doi: '10.1007/s11047-023-09945-2'

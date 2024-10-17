@@ -1,0 +1,36 @@
+authors:
+- family: Hamyeh
+  given: Mohamed
+- family: Bernex
+  given: Florence
+- family: Larive
+  given: Romain M
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Urbach
+  given: Serge
+- family: Simony-Lafontaine
+  given: Joelle
+- family: Puech
+  given: Carole
+- family: Bakhache
+  given: William
+- family: Solassol
+  given: "J\xE9rome"
+- family: Coopman
+  given: Peter J
+- family: Hendriks
+  given: Wiljan J A J
+- family: Freiss
+  given: Gilles
+issue: '3'
+journal: Theranostics
+links:
+  doi: 10.7150/Thno.38537
+  pmid: '31938048'
+pages: 1016-1032
+title: PTPN13 induces cell junction stabilization and inhibits mammary tumor invasiveness
+tags: [ 'OpenAccess' ]
+type: article
+volume: '10'
+year: '2020'

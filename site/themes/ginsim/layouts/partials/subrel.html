@@ -1,0 +1,12 @@
+{{ $key  := .Scratch.Get "_rel_key_" }}
+{{ $type := .Scratch.Get "_rel_type_" }}
+
+{{ $related := where (.Site.RegularPages.RelatedIndices . $key ) "Type" $type }}
+
+{{ with $related }}
+<ul>
+    {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}

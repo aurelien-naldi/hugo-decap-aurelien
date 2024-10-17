@@ -1,0 +1,20 @@
+authors:
+- family: Radulescu
+  given: Ovidiu
+- family: Samal
+  given: Satya Swarup
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Grigoriev
+  given: Dima
+- family: Weber
+  given: Andreas
+journal: Computational Methods in Systems Biology
+links:
+  doi: 10.1007/978-3-319-23401-4_10
+pages: 104-120
+series: Lecture Notes in Computer Science
+title: Symbolic Dynamics of Biochemical Pathways as Finite States Machines
+type: conference
+volume: '9308'
+year: '2015'

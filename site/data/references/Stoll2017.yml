@@ -1,0 +1,29 @@
+authors:
+- family: Stoll
+  given: Gautier
+- family: Caron
+  given: "Barth\xE9l\xE9my"
+- family: Viara
+  given: Eric
+- family: Dugourd
+  given: "Aur\xE9lien"
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Kroemer
+  given: Guido
+- family: Zinovyev
+  given: Andrei
+- family: Barillot
+  given: Emmanuel
+- family: Calzone
+  given: Laurence
+journal: Bioinformatics
+links:
+  doi: 10.1093/bioinformatics/btx123
+  pmid: '28881959'
+number: '14'
+pages: 2226-8
+title: 'MaBoSS 2.0: an environment for stochastic Boolean modeling'
+type: article
+volume: '33'
+year: '2017'

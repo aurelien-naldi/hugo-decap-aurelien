@@ -1,0 +1,23 @@
+authors:
+- family: Buffard
+  given: Marion
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Radulescu
+  given: Ovidiu
+- family: Coopman
+  given: Peter J
+- family: Larive
+  given: Romain M
+- family: Freiss
+  given: Gilles
+issue: 21-22
+journal: Proteomics
+links:
+  doi: 10.1002/Pmic.201800450
+  pmid: '31472481'
+pages: e1800450
+title: Network Reconstruction and Significant Pathway Extraction Using Phosphoproteomic Data from Cancer Cells
+type: article
+volume: '19'
+year: '2019'

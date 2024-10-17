@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+{{- partial "head.html" . -}}
+{{- block "extra_head" . }}{{- end }}
+</head>
+<body>
+{{- partial "header.html" . -}}
+{{ block "main" . }}{{partial "section.html" .}}{{ end }}
+{{- block "after_main" . }}{{- end }}
+
+
+{{- block "extra_sections" . }}{{ if .Params.extrasections }}
+    {{ $sections := .Page.GetPage .Params.extrasections }}
+    {{ $sections := $sections.Resources.ByType "page" }}
+    {{range sort $sections .Params.weight}}{{partial "section.html" .}}{{end}}
+{{ end }}{{- end }}
+{{- partial "footer.html" . -}}
+</body>
+</html>

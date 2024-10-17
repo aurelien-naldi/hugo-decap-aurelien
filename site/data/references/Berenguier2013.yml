@@ -1,0 +1,25 @@
+authors:
+- family: "B\xE9renguier"
+  given: D.
+- family: Chaouiya
+  given: C.
+- family: Monteiro
+  given: P. T.
+- family: Naldi
+  given: A.
+- family: Remy
+  given: E.
+- family: Thieffry
+  given: D.
+- family: Tichit
+  given: L.
+issue: '2'
+journal: Chaos
+links:
+  doi: 10.1063/1.4809783
+pages: '025114'
+title: Dynamical modeling and analysis of large cellular regulatory networks
+tags: [ 'OpenAccess' ]
+type: article
+volume: '23'
+year: '2013'

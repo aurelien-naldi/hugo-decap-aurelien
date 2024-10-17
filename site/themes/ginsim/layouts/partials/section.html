@@ -1,0 +1,7 @@
+<section{{ if .Params.style }} class="{{.Params.style}}"{{end}}>
+<div class="content">
+{{ if not .Params.notitle }}<h1>{{ .Title }}</h1>{{ end }}
+{{ .Content }}
+{{ partial "biblio.html" $ }}
+</div>
+</section>

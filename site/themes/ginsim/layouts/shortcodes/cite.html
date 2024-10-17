@@ -1,0 +1,23 @@
+<span class="cite">[{{ range $i,$v := .Params }}
+    {{- if (gt $i 0) -}},{{- end -}}
+
+    {{- with $.Page.Scratch.Get "cited" -}}
+        {{ $.Page.Scratch.Add "citekey" 0 }}
+        {{ range $idx,$value := . }}
+            {{ if eq $value $v }}
+                {{- $.Page.Scratch.Add "citekey" (add $idx 1) -}}
+            {{ end }}
+        {{end}}
+        {{ if lt ($.Page.Scratch.Get "citekey") 1 }}
+            {{- $.Page.Scratch.Add "cited" (slice $v) -}}
+            {{ $.Page.Scratch.Add "citekey" (len ($.Page.Scratch.Get "cited")) }}
+        {{ end }}
+        {{ $.Page.Scratch.Get "citekey" }}
+        {{ $.Page.Scratch.Delete "citekey" }}
+    {{ else }}
+        {{- $.Page.Scratch.Add "cited" (slice $v) -}}
+        1
+    {{- end -}}
+
+{{end}}]</span>
+

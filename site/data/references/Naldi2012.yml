@@ -1,0 +1,15 @@
+authors:
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Monteiro
+  given: Pedro T.
+- family: Chaouiya
+  given: Claudine
+journal: Computational Methods in Systems Biology
+links:
+  doi: 10.1007/978-3-642-33636-2_17
+pages: 288--306
+title: Efficient Handling of Large Signalling-Regulatory Networks by Focusing on Their
+  Core Control
+type: conference
+year: '2012'

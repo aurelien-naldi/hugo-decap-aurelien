@@ -1,0 +1,20 @@
+authors:
+- family: Aghamiri
+  given: Sara Sadat
+- family: Singh
+  given: Vidisha
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Helikar
+  given: "Tom\xE1\u0161"
+- family: Soliman
+  given: Sylvain
+- family: Niarakis
+  given: Anna
+journal: Bioinformatics
+links:
+  doi: 10.1093/bioinformatics/btaa484
+title: Automated inference of Boolean models from molecular interaction maps using CaSQ
+tags: [ 'OpenAccess' ]
+type: article
+year: '2020'

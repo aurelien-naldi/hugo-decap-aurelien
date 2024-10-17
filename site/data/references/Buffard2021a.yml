@@ -1,0 +1,20 @@
+authors:
+- - Buffard
+  - Marion
+- - Desoeuvres
+  - "Aur\xE9lien"
+- - Naldi
+  - "Aur\xE9lien"
+- - "Requil\xE9"
+  - "Cl\xE9ment"
+- - Zinovyev
+  - Andrei
+- - Radulescu
+  - Ovidiu
+journal: Computational Methods in Systems Biology
+links:
+  doi: 10.1007/978-3-030-85633-5_15
+pages: 238--244
+title: 'LNetReduce: Tool for Reducing Linear Dynamic Networks with Separated Timescales'
+year: '2021'
+type: conference

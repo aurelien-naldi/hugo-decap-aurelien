@@ -1,0 +1,30 @@
+authors:
+- family: Comet
+  given: Jean-Paul
+- family: Noual
+  given: Mathilde
+- family: Richard
+  given: Adrien
+- family: Aracena
+  given: Julio
+- family: Calzone
+  given: Laurence
+- family: Demongeot
+  given: Jacques
+- family: Kaufman
+  given: Marcelle
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Snoussi
+  given: El Houssine
+- family: Thieffry
+  given: Denis
+issue: '6'
+journal: Bulletin of Mathematical Biology
+links:
+  doi: 10.1007/s11538-013-9829-2
+pages: 906--919
+title: On Circuit Functionality in Boolean Networks
+type: review
+volume: '75'
+year: '2013'

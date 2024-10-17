@@ -1,0 +1,21 @@
+authors:
+- family: Gonzalez
+  given: A. Gonzalez
+- family: Naldi
+  given: A.
+- family: "S\xE1nchez"
+  given: L.
+- family: Thieffry
+  given: D.
+- family: Chaouiya
+  given: C.
+issue: '2'
+journal: Biosystems
+links:
+  doi: 10.1016/j.biosystems.2005.10.003
+pages: 91--100
+title: 'GINsim: A software suite for the qualitative modelling, simulation and analysis
+  of regulatory networks'
+type: article
+volume: '84'
+year: '2006'

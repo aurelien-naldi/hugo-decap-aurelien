@@ -1,0 +1,19 @@
+authors:
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Carneiro
+  given: Jorge
+- family: Chaouiya
+  given: Claudine
+- family: Thieffry
+  given: Denis
+issue: '9'
+journal: PLoS Computational Biology
+links:
+  doi: 10.1371/journal.pcbi.1000912
+pages: e1000912
+title: Diversity and Plasticity of Th Cell Types Predicted from Regulatory Network Modelling
+tags: [ 'OpenAccess' ]
+type: article
+volume: '6'
+year: '2010'

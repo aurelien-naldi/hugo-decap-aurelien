@@ -1,0 +1,25 @@
+$basecolor:  {{ .Site.Data.style.basecolor | default "#811" }};
+$compcolor:  {{ .Site.Data.style.compcolor | default "#e80" }};
+$extbg:    {{ .Site.Data.style.extbg | default "#fff" }};
+$mainbg:   {{ .Site.Data.style.mainbg | default "$extbg" }};
+$maintxt:  {{ .Site.Data.style.maintxt | default "#000" }};
+$headtxt:  {{ .Site.Data.style.headtxt | default "#fff" }};
+
+
+$headbg:   {{ .Site.Data.style.headbg | default "darken($basecolor, 10%)" }};
+$aheadtxt: {{ .Site.Data.style.aheadtxt | default "darken($compcolor, 10%)" }};
+$aheadtxt:  {{ .Site.Data.style.aheadtxt | default "darken($headtxt, 15%)" }};
+$links: {{ .Site.Data.style.links | default "lighten($basecolor, 10%)" }};
+$alinks: {{ .Site.Data.style.alinks | default "lighten($compcolor, 10%)" }};
+
+$fillnav: {{ .Site.Data.style.fillnav | default "false" }};
+$navbg: {{ .Site.Data.style.navbg | default "#555" }};
+$anavbg: {{ .Site.Data.style.anavbg | default "lighten($navbg, 10%)" }};
+
+$releasebr:   {{ .Site.Data.style.releasebr | default "#115" }};
+$releasebg:   {{ .Site.Data.style.releasebg | default "#eef" }};
+$releasehc:   {{ .Site.Data.style.releasehc | default "#fff" }};
+$releasebc:   {{ .Site.Data.style.releasebc | default "#000" }};
+
+@import 'layout';
+

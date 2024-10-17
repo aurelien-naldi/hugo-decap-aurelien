@@ -1,0 +1,14 @@
+{{ $cited := $.Page.Scratch.Get "cited" }}
+{{ with $cited }}
+<dl class="biblio">
+{{ range $idx,$bibid := . }}
+    {{ $path := split $bibid "/"}}
+    {{ $.Scratch.Set "_cur_ref_" $.Site.Data.references }}
+    {{ range $path }}
+        {{ $.Scratch.Set "_cur_ref_" (index ($.Scratch.Get "_cur_ref_") .) }}
+    {{end}}
+    <dt>{{add $idx 1}}</dt><dd>{{ partial "printref.html" $ }}</dd>
+{{ end }}
+</dl>
+{{ $.Page.Scratch.Delete "cited" }}
+{{ end }}

@@ -1,0 +1,15 @@
+<header>
+  <div class="title">
+    <a href="{{ .Site.BaseURL }}">
+    {{ $title := $.Site.Title }}
+    {{- if isSet  $.Site.Params "logo" }}
+      {{ $logo := resources.Get $.Site.Params.logo }}
+      <img src="{{$logo.Permalink}}" class="logo" alt="{{ $title }}"/>
+    {{ else }}
+      <h1 class="brand">{{$title}}</h1>
+    {{ end -}}
+    </a>
+  </div>
+{{- partial "nav.html" . -}}
+</header>
+

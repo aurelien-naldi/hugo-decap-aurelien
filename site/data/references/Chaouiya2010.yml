@@ -1,0 +1,15 @@
+authors:
+- family: Chaouiya
+  given: Claudine
+- family: Naldi
+  given: Aurelien
+- family: Remy
+  given: Elisabeth
+- family: Thieffry
+  given: Denis
+journal: 2010 IEEE International Conference on Control Applications
+links:
+  doi: 10.1109/CCA.2010.5611238
+title: Reduction of logical models of regulatory networks yields insight into dynamical properties
+type: conference
+year: '2010'

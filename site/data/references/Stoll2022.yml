@@ -1,0 +1,25 @@
+authors:
+- family: Stoll
+  given: Gautier
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: "No\xEBl"
+  given: Vincent
+- family: Viara
+  given: Eric
+- family: Barillot
+  given: Emmanuel
+- family: Kroemer
+  given: Guido
+- family: Thieffry
+  given: Denis
+- family: Calzone
+  given: Laurence
+journal: Frontiers in Molecular Biosciences
+tags: [ 'OpenAccess' ]
+links:
+  doi: 10.3389/fmolb.2022.800152
+title: 'UPMaBoSS: a novel framework for dynamic cell population modeling'
+type: article
+domain: methods
+year: '2022'

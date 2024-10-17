@@ -1,0 +1,39 @@
+{{/* ********************************************************************************
+     Generate HTML representation of a reference from a JSON dictionnary
+******************************************************************************** */}}
+{{ $bib := .Scratch.Get "_cur_ref_" }}
+{{ $bibid := .Scratch.Get "_cur_ref_id_" }}
+{{ with $bib }}
+{{/******************    LINKS    ******************/}}
+{{with $bib.links }}
+    {{with $bib.links.doi }}
+        {{ $.Scratch.Set "url" (print "http://dx.doi.org/" $bib.links.doi) }}
+    {{ else }}{{ with $bib.links.pmid }}
+        {{ $.Scratch.Set "url" (print "http://www.ncbi.nlm.nih.gov/pubmed/" $bib.links.pubmed) }}
+    {{ else }}
+        {{ $.Scratch.Set "url" $bib.links.url }}
+    {{ end }}{{ end }}
+{{end }}
+{{/**************   link to PDF document   **************/}}
+{{ $pdf := (print "references/"  $bibid ".pdf") }}
+<div class="ref{{ with $bib.domain }} {{ $bib.domain }}{{end}}">
+    <div class="type{{ with $bib.type }} {{$bib.type}}" title="Type: {{ $bib.type }}{{if in $bib.tags "OpenAccess" }} (Open Access){{end}}{{end}}">
+    {{if in $bib.tags "OpenAccess" }}{{ $icon := resources.Get "icons/openaccess_white.svg" }}<img class="oa" src="{{ $icon.Permalink }}" />
+{{- end -}}</div>
+{{- if (fileExists (print "static/" $pdf)) -}}{{ $icon := resources.Get "icons/pdf.svg" }}<a href="{{ $pdf | absURL }}"><img title="Download as PDF" class="pdf" src="{{ $icon.Permalink }}" /></a>{{ end -}}
+    {{ with $bib.links }}<a href="{{ $.Scratch.Get "url" }}">{{end}}
+    <span class="title">{{ $bib.title }}.</span>
+    {{ with $bib.links }}</a>{{end}}
+    <span class="authors">
+{{ range $idx, $who := $bib.authors }}{{ if $idx }}, {{ end }}{{ if reflect.IsMap $who }}{{ $given := $who.given }}{{substr $given 0 1}}. {{ $who.family }}{{ else if reflect.IsSlice $who }}{{ $given := index $who 1 }}{{substr $given 0 1}}. {{ index $who 0 }}{{ else }}{{$who}}{{ end }}{{ end }}.
+    </span>
+
+{{/******************    JOURNAL    ******************/}}
+{{with $bib.journal }}
+    <span class="journal">{{$bib.journal}}</span>
+{{ end }}
+
+{{/****************   POSITION/YEAR   ****************/}}
+<span class="position">{{ with $bib.volume }}{{ $bib.volume }}{{ end }}{{ with $bib.pages }}:{{ $bib.pages  }}{{ end }}</span>{{with $bib.year }}<span class="year"> ({{ $bib.year }})</span>{{ end }}.
+</div>
+{{ end }}

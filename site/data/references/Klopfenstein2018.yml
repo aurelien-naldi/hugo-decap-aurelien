@@ -1,0 +1,38 @@
+authors:
+- family: Klopfenstein
+  given: D.V.
+- family: Zhang
+  given: L.
+- family: Pedersen
+  given: B.S.
+- family: Ramirez
+  given: F.
+- family: Warwick Vesztrocy
+  given: A
+- family: Naldi
+  given: A.
+- family: Mungall
+  given: C.J.
+- family: Yunes
+  given: J.M.
+- family: Botvinnik
+  given: O.
+- family: Weigel
+  given: M.
+- family: Dampier
+  given: W.
+- family: Dessimoz
+  given: C.
+- family: Flick
+  given: P.
+- family: Tang
+  given: H.
+journal: Scientific Reports
+tags: [ 'OpenAccess' ]
+links:
+  doi: 10.1038/s41598-018-28948-z
+pages: '10872'
+title: 'GOATOOLS: A Python library for Gene Ontology analyses'
+type: article
+volume: '8'
+year: '2018'

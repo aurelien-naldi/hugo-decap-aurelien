@@ -1,0 +1,22 @@
+authors:
+- family: Naldi
+  given: A.
+- family: Berenguier
+  given: D.
+- family: "Faur\xE9"
+  given: A.
+- family: Lopez
+  given: F.
+- family: Thieffry
+  given: D.
+- family: Chaouiya
+  given: C.
+issue: '2'
+journal: Biosystems
+links:
+  doi: 10.1016/j.biosystems.2009.04.008
+pages: 134--139
+title: Logical modelling of regulatory networks with GINsim 2.3
+type: article
+volume: '97'
+year: '2009'

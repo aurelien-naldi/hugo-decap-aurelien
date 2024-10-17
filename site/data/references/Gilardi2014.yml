@@ -1,0 +1,28 @@
+authors:
+- family: Gilardi
+  given: Federica
+- family: Migliavacca
+  given: Eugenia
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Baruchet
+  given: "Micha\xEBl"
+- family: Canella
+  given: Donatella
+- family: Martelot
+  given: Gwendal Le
+- family: Guex
+  given: Nicolas
+- family: Desvergne
+  given: "B\xE9atrice"
+issue: '3'
+journal: PLoS Genetics
+links:
+  doi: 10.1371/journal.pgen.1004155
+pages: e1004155
+title: Genome-Wide Analysis of SREBP1 Activity around the Clock Reveals Its Combined
+  Dependency on Nutrient and Circadian Signals
+tags: [ 'OpenAccess' ]
+type: article
+volume: '10'
+year: '2014'

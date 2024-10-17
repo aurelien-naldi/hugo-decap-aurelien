@@ -1,0 +1,32 @@
+authors:
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Larive
+  given: Romain M
+- family: Czerwinska
+  given: Urszula
+- family: Urbach
+  given: Serge
+- family: Montcourrier
+  given: Philippe
+- family: Roy
+  given: Christian
+- family: Solassol
+  given: Jerome
+- family: Freiss
+  given: Gilles
+- family: Coopman
+  given: Peter J
+- family: Radulescu
+  given: Ovidiu
+journal: PLoS Computational Biology
+tags: [ 'OpenAccess' ]
+links:
+  doi: 10.1371/journal.pcbi.1005432
+number: '3'
+pages: e1005432
+title: Reconstruction and Signal Propagation Analysis of the Syk Signaling Network
+  in Breast Cancer Cells
+type: article
+volume: '13'
+year: '2017'

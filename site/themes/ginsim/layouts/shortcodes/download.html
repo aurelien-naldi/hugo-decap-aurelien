@@ -1,0 +1,9 @@
+<div class="release">
+<h1>{{ .Get 1 }}</h1>
+<ul>
+{{ range (readDir (.Get 0)) }}
+    <li><a href="/{{ $.Get 0 }}/{{ .Name }}">{{ .Name }}</a></li> 
+{{ end }}
+</ul>
+</div>
+

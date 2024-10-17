@@ -1,0 +1,25 @@
+authors:
+- family: "Abou-Jaoud\xE9"
+  given: Wassim
+- family: Monteiro
+  given: Pedro T
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Grandclaudon
+  given: Maximilien
+- family: Soumelis
+  given: Vassili
+- family: Chaouiya
+  given: Claudine
+- family: Thieffry
+  given: Denis
+journal: Front Bioeng Biotechnol
+tags: [ 'OpenAccess' ]
+links:
+  doi: 10.3389/Fbioe.2014.00086
+  pmid: '25674559'
+pages: '86'
+title: Model checking to assess T-helper cell plasticity
+type: article
+volume: '2'
+year: '2015'

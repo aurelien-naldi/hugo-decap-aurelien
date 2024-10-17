@@ -1,0 +1,27 @@
+authors:
+- family: Wigger
+  given: Leonore
+- family: Casals-Casas
+  given: Cristina
+- family: Baruchet
+  given: "Micha\xEBl"
+- family: Trang
+  given: Khanh B.
+- family: Pradervand
+  given: Sylvain
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Desvergne
+  given: "B\xE9atrice"
+issue: '8'
+journal: PLOS ONE
+links:
+  doi: 10.1371/journal.pone.0220894
+  pmid: '31437187'
+pages: e0220894
+title: System analysis of cross-talk between nuclear receptors reveals an opposite
+  regulation of the cell cycle by LXR and FXR in human HepaRG liver cells
+tags: [ 'OpenAccess' ]
+type: article
+volume: '14'
+year: '2019'

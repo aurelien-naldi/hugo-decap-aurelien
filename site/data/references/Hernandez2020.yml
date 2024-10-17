@@ -1,0 +1,18 @@
+authors:
+- family: Hernandez
+  given: "C\xE9line"
+- family: Thomas-Chollier
+  given: Morgane
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Thieffry
+  given: Denis
+journal: Frontiers in Physiology
+links:
+  doi: 10.3389/fphys.2020.558606
+title: "Computational Verification of Large Logical Models \u2014 Application to the
+  Prediction of T Cell Response to Checkpoint Inhibitors"
+tags: [ 'OpenAccess' ]
+type: article
+volume: '11'
+year: '2020'

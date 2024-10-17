@@ -1,0 +1,28 @@
+authors:
+- family: Checcoli
+  given: Andrea
+- family: Pol
+  given: Jonathan
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Noel
+  given: Vincent
+- family: Barillot
+  given: Emmanuel
+- family: Kroemer
+  given: Guido
+- family: Thieffry
+  given: Denis
+- family: Calzone
+  given: Laurence
+- family: Stoll
+  given: Gautier
+journal: Frontiers in Physiology
+links:
+  doi: 10.3389/fphys.2020.590479
+title: Dynamical Boolean Modeling of Immunogenic Cell Death
+tags: [ 'OpenAccess' ]
+type: article
+domain: models
+volume: '11'
+year: '2020'

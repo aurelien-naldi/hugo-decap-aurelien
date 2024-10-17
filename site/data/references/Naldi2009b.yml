@@ -1,0 +1,18 @@
+authors:
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Remy
+  given: Elisabeth
+- family: Thieffry
+  given: Denis
+- family: Chaouiya
+  given: Claudine
+journal: Computational Methods in Systems Biology
+links:
+  doi: 10.1007/978-3-642-03845-7_18
+pages: 266--280
+series: Lecture Notes in Computer Science
+title: A Reduction of Logical Regulatory Graphs Preserving Essential Dynamical Properties
+type: conference
+volume: '5688'
+year: '2009'

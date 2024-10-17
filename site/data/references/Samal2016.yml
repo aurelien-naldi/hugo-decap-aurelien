@@ -1,0 +1,23 @@
+authors:
+- family: Samal
+  given: Satya Swarup
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Grigoriev
+  given: Dima
+- family: Weber
+  given: Andreas
+- family: "Th\xE9ret"
+  given: Nathalie
+- family: Radulescu
+  given: Ovidiu
+journal: Biosystems
+tags: [ 'OpenAccess' ]
+links:
+  arxiv: http://arxiv.org/abs/1511.05599
+  doi: 10.1016/j.biosystems.2016.07.004
+pages: 3-14
+title: 'Geometric analysis of pathways dynamics: application to versatility of TGF-beta receptors'
+type: article
+volume: '149'
+year: '2016'

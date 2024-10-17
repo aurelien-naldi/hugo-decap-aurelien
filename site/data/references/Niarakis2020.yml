@@ -1,0 +1,47 @@
+authors:
+- family: Niarakis
+  given: Anna
+- family: Kuiper
+  given: Martin
+- family: Ostaszewski
+  given: Marek
+- family: Sheriff
+  given: Rahuman S Malik
+- family: Casals-Casas
+  given: Cristina
+- family: Thieffry
+  given: Denis
+- family: Freeman
+  given: Tom C
+- family: Thomas
+  given: Paul
+- family: "Tour\xE9"
+  given: Vasundra
+- family: "No\xEBl"
+  given: Vincent
+- family: Stoll
+  given: Gautier
+- family: Saez-Rodriguez
+  given: Julio
+- family: Naldi
+  given: "Aur\xE9lien"
+- family: Oshurko
+  given: Eugenia
+- family: Xenarios
+  given: Ioannis
+- family: Soliman
+  given: Sylvain
+- family: Chaouiya
+  given: Claudine
+- family: Helikar
+  given: "Tom\xE1\u0161"
+- family: Calzone
+  given: Laurence
+journal: Briefings in Bioinformatics
+links:
+  doi: 10.1093/bib/bbaa046
+title: "Setting the basis of best practices and standards for curation and annotation\
+  \ of logical models in biology\u2014highlights of the [BC]2 2019 CoLoMoTo/SysMod\
+  \ Workshop"
+type: review
+year: '2020'

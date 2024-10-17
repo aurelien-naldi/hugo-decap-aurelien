@@ -1,0 +1,7 @@
+baseURL = "http://aurelien.naldi.fr"
+languageCode = "en-us"
+title = "Aurélien Naldi"
+theme = "ginsim"
+
+enableEmoji = true
+

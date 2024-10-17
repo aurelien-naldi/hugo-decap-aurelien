@@ -1,0 +1,23 @@
+{{ define "after_main" }}
+<section class="children">
+<div class="content">
+{{ if .Sections }}
+  {{ range .Sections }}
+    <div class="relative">
+      {{- partial "summary.html" . -}}
+    </div>
+  {{ end }}
+{{ end }}
+  
+{{ $paginator := .Paginate .Pages.ByDate }}
+{{ range $paginator.Pages }}
+    <div class="relative">
+      {{- partial "summary.html" . -}}
+    </div>
+{{ end }}
+{{- template "_internal/pagination.html" . -}}
+</div>
+</section>
+
+{{ end }}
+

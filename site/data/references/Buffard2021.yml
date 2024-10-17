@@ -1,0 +1,26 @@
+authors:
+- family: Buffard
+  given: Marion
+- family: Naldi
+  given: Aurélien
+- family: Freiss
+  given: Gilles
+- family: Deckert
+  given: Marcel
+- family: Radulescu
+  given: Ovidiu
+- family: Coopman
+  given: Peter J
+- family: Larive
+  given: Romain M
+title: 'Comparison of SYK Signaling Networks Reveals the Potential Molecular Determinants of Its Tumor-Promoting and Suppressing Functions'
+year: '2021'
+journal: Biomolecules
+volume: '11'
+issue: '2'
+pages: '308'
+type: article
+tags: [ 'OpenAccess' ]
+links: 
+   doi: "10.3390/biom11020308"
+

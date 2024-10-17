@@ -1,0 +1,159 @@
+authors:
+- - Shaikh
+  - Bilal
+- - Smith
+  - Lucian P
+- - Vasilescu
+  - Dan
+- - Marupilla
+  - Gnaneswara
+- - Wilson
+  - Michael
+- - Agmon
+  - Eran
+- - Agnew
+  - Henry
+- - Andrews
+  - Steven S
+- - Anwar
+  - Azraf
+- - Beber
+  - Moritz E
+- - Bergmann
+  - Frank T
+- - Brooks
+  - David
+- - Brusch
+  - Lutz
+- - Calzone
+  - Laurence
+- - Choi
+  - Kiri
+- - Cooper
+  - Joshua
+- - Detloff
+  - John
+- - Drawert
+  - Brian
+- - Dumontier
+  - Michel
+- - Ermentrout
+  - G~Bard
+- - Faeder
+  - James~R
+- - Freiburger
+  - Andrew~P
+- - "Fr\xF6hlich"
+  - Fabian
+- - Funahashi
+  - Akira
+- - Garny
+  - Alan
+- - Gennari
+  - John~H
+- - Gleeson
+  - Padraig
+- - Goelzer
+  - Anne
+- - Haiman
+  - Zachary
+- - Hasenauer
+  - Jan
+- - Hellerstein
+  - Joseph~L
+- - Hermjakob
+  - Henning
+- - Hoops
+  - Stefan
+- - Ison
+  - Jon~C
+- - Jahn
+  - Diego
+- - Jakubowski
+  - Henry~V
+- - Jordan
+  - Ryann
+- - "Kala\u0161"
+  - "Mat\xFA\u0161"
+- - "K\xF6nig"
+  - Matthias
+- - Liebermeister
+  - Wolfram
+- - Sheriff
+  - Rahuman~S Malik
+- - Mandal
+  - Synchon
+- - McDougal
+  - Robert
+- - Medley
+  - J~Kyle
+- - Mendes
+  - Pedro
+- - "M\xFCller"
+  - Robert
+- - Myers
+  - Chris~J
+- - Naldi
+  - Aurelien
+- - Nguyen
+  - Tung V N
+- - Nickerson
+  - David~P
+- - Olivier
+  - Brett~G
+- - Patoliya
+  - Drashti
+- - "Paulev\xE9"
+  - "Lo\xEFc"
+- - Petzold
+  - Linda~R
+- - Priya
+  - Ankita
+- - Rampadarath
+  - Anand~K
+- - Rohwer
+  - Johann M
+- - Saglam
+  - Ali~S
+- - Singh
+  - Dilawar
+- - Sinha
+  - Ankur
+- - Snoep
+  - Jacky
+- - Sorby
+  - Hugh
+- - Spangler
+  - Ryan
+- - "Starru\xDF"
+  - "J\xF6rn"
+- - Thomas
+  - Payton~J
+- - van Niekerk
+  - David
+- - Weindl
+  - Daniel
+- - Zhang
+  - Fengkai
+- - Zhukova
+  - Anna
+- - Goldberg
+  - Arthur~P
+- - Schaff
+  - James~C
+- - Blinov
+  - Michael~L
+- - Sauro
+  - Herbert~M
+- - Moraru
+  - Ion~I
+- - Karr
+  - Jonathan~R
+journal: Nucleic Acids Research
+links:
+  doi: 10.1093/nar/gkac331
+title: 'BioSimulators: a central registry of simulation engines and services for recommending
+  specific tools'
+year: '2022'
+tags: [ 'OpenAccess' ]
+type: article
